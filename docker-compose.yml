@@ -1,0 +1,42 @@
+version: '3.4'
+
+services:
+  corepostgre:
+    image: ${DOCKER_REGISTRY-}corepostgre
+    build:
+      context: .
+      dockerfile: CorePostgre/Dockerfile
+    networks:
+      - docker_netcore
+    depends_on:
+        - postgres
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+        POSTGRES_USER: "onr"
+        POSTGRES_PASSWORD: "onr"
+        POSTGRES_DB: "onrdb"
+        PGDATA: /var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    volumes:
+        - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - docker_netcore
+  postgreSqlUI:
+    image: dpage/pgadmin4
+    container_name: postgreSqlUI
+    ports:
+        - "8002:80"
+    environment:
+        - PGADMIN_DEFAULT_EMAIL=onr@tklu.com
+        - PGADMIN_DEFAULT_PASSWORD=onr
+    depends_on:
+        - postgres
+    networks:
+      - docker_netcore
+networks:
+  docker_netcore:
+    external: true

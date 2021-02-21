@@ -1,0 +1,8 @@
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\bin\Debug\netcoreapp3.1\CorePostgre.Model.deps.json
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\bin\Debug\netcoreapp3.1\CorePostgre.Model.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\bin\Debug\netcoreapp3.1\CorePostgre.Model.pdb
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\obj\Debug\netcoreapp3.1\CorePostgre.Model.AssemblyInfoInputs.cache
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\obj\Debug\netcoreapp3.1\CorePostgre.Model.AssemblyInfo.cs
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\obj\Debug\netcoreapp3.1\CorePostgre.Model.csproj.CoreCompileInputs.cache
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\obj\Debug\netcoreapp3.1\CorePostgre.Model.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Model\obj\Debug\netcoreapp3.1\CorePostgre.Model.pdb

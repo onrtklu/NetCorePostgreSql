@@ -1,0 +1,55 @@
+networks:
+  docker_netcore:
+    external: true
+    name: docker_netcore
+services:
+  corepostgre:
+    build:
+      context: D:\Code\WorkShop\NetCorePostgre\CorePostgre
+      dockerfile: CorePostgre/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: corepostgre
+    networks:
+      docker_netcore: {}
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /c/Users/onur_/AppData/Roaming/ASP.NET/Https:/root/.aspnet/https:ro
+    - /c/Users/onur_/AppData/Roaming/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  postgreSqlUI:
+    container_name: postgreSqlUI
+    depends_on:
+      postgres:
+        condition: service_started
+    environment:
+      PGADMIN_DEFAULT_EMAIL: onr@tklu.com
+      PGADMIN_DEFAULT_PASSWORD: onr
+    image: dpage/pgadmin4
+    networks:
+      docker_netcore: {}
+    ports:
+    - published: 8002
+      target: 80
+  postgres:
+    container_name: postgres
+    environment:
+      PGDATA: /var/lib/postgresql/data
+      POSTGRES_DB: onrdb
+      POSTGRES_PASSWORD: onr
+      POSTGRES_USER: onr
+    image: postgres
+    networks:
+      docker_netcore: {}
+    ports:
+    - published: 5432
+      target: 5432
+    restart: always
+    volumes:
+    - /d/Code/WorkShop/NetCorePostgre/CorePostgre/init.sql:/docker-entrypoint-initdb.d/init.sql:rw
+version: '3.4'

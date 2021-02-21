@@ -1,0 +1,14 @@
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Service.deps.json
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Service.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Service.pdb
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Data.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Model.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Data.pdb
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\bin\Debug\netcoreapp3.1\CorePostgre.Model.pdb
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.csprojAssemblyReference.cache
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.AssemblyInfoInputs.cache
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.AssemblyInfo.cs
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.csproj.CoreCompileInputs.cache
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.csproj.CopyComplete
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.dll
+D:\Code\WorkShop\NetCorePostgre\CorePostgre\CorePostgre.Service\obj\Debug\netcoreapp3.1\CorePostgre.Service.pdb
